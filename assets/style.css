@@ -1,0 +1,140 @@
+#wrapper {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: solid darkblue 1px;
+    left: 30%;
+    top: 20%;
+
+}
+
+#questionscontent {
+    margin: 1rem;
+}
+
+#Timer {
+    float: right;
+}
+
+#startTime {
+    font-size: 20px;
+    background-color: darkblue;
+    color: yellow;
+    margin-left: 33%;
+    padding: 20px 30px;
+}
+
+#clear {
+    position: relative;
+    width: auto;
+    text-align: center;
+    background-color: darkblue;
+    font-size: 1rem;
+    color: yellow;
+    padding: 0.8rem;
+    top: 25%;
+    left: 15%;
+}
+
+#retest {
+    position: relative;
+    width: auto;
+    text-align: center;
+    background-color: darkblue;
+    font-size: 1rem;
+    color: yellow;
+    padding: 0.8rem;
+    top: 25%;
+    left: 15%;
+
+}
+
+button {
+    border-radius: 0.5rem;
+}
+
+textarea {
+    width: 90%;
+    margin: 1rem;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+input {
+    margin-bottom: 1rem;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+#Submit {
+    background-color: darkblue;
+    margin-left: 33%;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: darkblue;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.8rem;
+    width: 80%;
+    font-size: 1rem;
+    color: yellow;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+@media screen and (max-width: 786px) {
+    /* Resized content to fit 786px  */
+        body {
+            max-width: 786px;
+        }
+    /* Resized main-content to fit 786px  */
+    #wrapper {
+        position: absolute;
+        left: 20%;
+    }
+
+    a {
+        margin-left: 20%;
+    }
+        #goBack {
+            
+            position: relative;
+            left: 55%;
+        }
+
+        #clear {
+            
+            position: relative;
+            right: 5%;
+            
+        }
+    }
+        
+    /* A Media Query max-width: 640px */
+    @media screen and (max-width: 640px) {
+     /* Resized content to fit 640px  */
+     body {
+            min-width: 640px;
+        }
+    /* Resized main-content to fit 640px  */
+    #wrapper {
+        position: absolute;
+        left: 10%;
+    }
+      a {
+          margin-left: 10%;
+      }
+
+     
+}
