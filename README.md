@@ -7,7 +7,7 @@ This is a quiz testing game using HTML, CSS, and Javascript. This testting game 
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
 
 * [GitHub Repository](https://github.com/alecfirstcode2021/yihsienlu-codeQuiz)
-* [Deployed GitHub IO]()
+* [Deployed GitHub IO](https://alecfirstcode2021.github.io/yihsienlu-codeQuiz/)
 
 ### Summary
 * Using HTML/CSS/Javascript documents, creating a series of quizzes with Javascript multiple-choice questions.
